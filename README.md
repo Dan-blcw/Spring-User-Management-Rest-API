@@ -21,43 +21,43 @@
 ```
 ## Summary chart
 ```
-                                             - src
-                                                  - main
-                                                        -* com.DanCreate.loginregisEmail
-                                                              - config 
-                                                                      - ApplicationConfigAuxiliary.java
-                                                                      - PasswordEncoder.java
-                                                                      - SecurityConfig.java
-                                                                      - SpringDocConfig.java
-                                                                      - SwaggerConfig.java
-                                                              - controller
-                                                                      - UserController.java
-                                                              - exception
-                                                                      - DuplicateRecordException
-                                                                      - ErrorResponse
-                                                                      - GlobalExceptionHandler
-                                                                      - NotFoundException
-                                                              - model
-                                                                  - dtos
-                                                                         -- CreateUserDto.java
-                                                                         -- UpdateUserDto.java
-                                                                         -- UploadFileDto.java
-                                                                  - entities
-                                                                         -- User.java
-                                                              - reponsitory
-                                                                      - TokenRepository.java
-                                                                      - UserRepository.java
-                                                              - response
-                                                                      - UserRepository.java
-                                                              - runDemo
-                                                                      - testController.java
-                                                              - service
-                                                                      - UserService.java
-                                                                      - UserServiceImpl.java
-                                                              - DemoApplication.java
-                                                  - resources
-                                                              -application.properties
-                                             - pom.xml
+- src
+      - main
+            -* com.DanCreate.loginregisEmail
+                  - config 
+                          - ApplicationConfigAuxiliary.java
+                          - PasswordEncoder.java
+                          - SecurityConfig.java
+                          - SpringDocConfig.java
+                          - SwaggerConfig.java
+                  - controller
+                          - UserController.java
+                  - exception
+                          - DuplicateRecordException
+                          - ErrorResponse
+                          - GlobalExceptionHandler
+                          - NotFoundException
+                  - model
+                      - dtos
+                             -- CreateUserDto.java
+                             -- UpdateUserDto.java
+                             -- UploadFileDto.java
+                      - entities
+                             -- User.java
+                  - reponsitory
+                          - TokenRepository.java
+                          - UserRepository.java
+                  - response
+                          - UserRepository.java
+                  - runDemo
+                          - testController.java
+                  - service
+                          - UserService.java
+                          - UserServiceImpl.java
+                  - DemoApplication.java
+      - resources
+                  -application.properties
+- pom.xml
 ```
 ## End
 Okay,that is all and i'm Dan - P-Minh Huong
