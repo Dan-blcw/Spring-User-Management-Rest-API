@@ -21,7 +21,7 @@ import javax.validation.constraints.Size;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UpdateUserAvatarDto {
+public class UpdateUserDto {
     @ApiModelProperty(hidden = true)
     private Long id;
 

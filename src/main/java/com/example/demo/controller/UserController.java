@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.exception.NotFoundException;
 import com.example.demo.model.dto.CreateUserDto;
-import com.example.demo.model.dto.UpdateUserAvatarDto;
+import com.example.demo.model.dto.UpdateUserDto;
 import com.example.demo.model.dto.UploadFileDto;
 import com.example.demo.model.entities.User;
 import com.example.demo.service.UserService;
@@ -71,7 +71,7 @@ public class UserController {
     @PutMapping("/{id}")
     public ResponseEntity<?> updateUser(
             @Valid
-            @RequestBody UpdateUserAvatarDto req,
+            @RequestBody UpdateUserDto req,
             @PathVariable Long id)
     {
         User result = userService.updateUser(req, id);

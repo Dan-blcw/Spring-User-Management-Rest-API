@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.model.entities.User;
 import com.example.demo.model.dto.CreateUserDto;
-import com.example.demo.model.dto.UpdateUserAvatarDto;
+import com.example.demo.model.dto.UpdateUserDto;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ public interface UserService extends UserDetailsService {
     public User findById(Long id);
     public User save(CreateUserDto req);
     public void updateUser(User user);
-    public User updateUser(UpdateUserAvatarDto req, Long id);
+    public User updateUser(UpdateUserDto req, Long id);
     public void deleteUser(Long id);
 
 }

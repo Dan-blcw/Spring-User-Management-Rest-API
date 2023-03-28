@@ -5,7 +5,7 @@ import com.example.demo.exception.NotFoundException;
 import com.example.demo.model.entities.User;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.model.dto.CreateUserDto;
-import com.example.demo.model.dto.UpdateUserAvatarDto;
+import com.example.demo.model.dto.UpdateUserDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -57,7 +57,7 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public User updateUser(UpdateUserAvatarDto req, Long id) {
+    public User updateUser(UpdateUserDto req, Long id) {
         User user = findById(id);
         if(req.getName() != null) {
             user.setName(req.getName());
