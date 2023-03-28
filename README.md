@@ -20,7 +20,7 @@
 }
 ```
 ## Summary chart
-<!--  
+```
                                              - src
                                                   - main
                                                         -* com.DanCreate.loginregisEmail
@@ -58,10 +58,6 @@
                                                   - resources
                                                               -application.properties
                                              - pom.xml
- -->
-![image](https://user-images.githubusercontent.com/127305381/228211619-1c4f368b-31ed-44f9-b051-4d37cee0b584.png)
-
-
-
+```
 ## End
 Okay,that is all and i'm Dan - P-Minh Huong
