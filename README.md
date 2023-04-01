@@ -23,7 +23,7 @@
 ```
 - src
       - main
-            -* com.DanCreate.loginregisEmail
+            -* com.example.demo
                   - config 
                           - ApplicationConfigAuxiliary.java
                           - PasswordEncoder.java
