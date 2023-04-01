@@ -30,9 +30,9 @@
 }
 ```
 ## PostMan
-#### demo @PostRequest user 1
+#### @PostRequest
 ![image](https://user-images.githubusercontent.com/127305381/229308778-68344849-e8b1-4ffc-a105-fd41f6626fb5.png)
-#### demo PostRequest user 2
+#### PostRequest
 ![image](https://user-images.githubusercontent.com/127305381/229308811-297873b1-f450-4ea1-8712-7edb43871ca0.png)
 #### @GetRequest all user
 ![image](https://user-images.githubusercontent.com/127305381/229308823-c02c1736-e886-41cd-a159-e2243fbb6207.png)
