@@ -10,7 +10,7 @@
 - MariaDB
 
 ## Set request body as raw with JSON payload
-#### @PostRequest user 1 and 2
+#### @PostRequest
 ```
 {   
     "name":"dan",
